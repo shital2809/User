@@ -7,7 +7,7 @@ const {
   deleteTraveler,
   getTraveler
 } = require('../controller/masterDataController');
-const { verifyToken } = require('../middleware/authMiddleware');
+const { verifyToken } = require('../middleware/authmiddleware');
 
 router.post('/travelers', verifyToken, createTraveler);
 router.get('/travelers', verifyToken, getTravelers);
