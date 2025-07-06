@@ -492,7 +492,7 @@ const SeatMap = ({
       if (!pricedOffer?.id) {
         throw new Error("Priced offer ID is required for seat map request.");
       }
-      const response = await fetch("http://localhost:3000/api/flights/seatmap", {
+      const response = await fetch("https://user-1-d8ut.onrender.com/api/flights/seatmap", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${sessionToken}`,

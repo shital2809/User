@@ -36,7 +36,7 @@
 //     try {
 //       setError("");
 //       const response = await axios.get(
-//         "http://localhost:3000/api/flights/live-airport-search",
+//         "https://user-1-d8ut.onrender.com/api/flights/live-airport-search",
 //         {
 //           params: { term: query },
 //         }
@@ -106,7 +106,7 @@
 //     try {
 //       setError("");
 //       const response = await axios.get(
-//         "http://localhost:3000/api/flights/search",
+//         "https://user-1-d8ut.onrender.com/api/flights/search",
 //         {
 //           params: {
 //             origin: departure.toUpperCase(),
@@ -284,7 +284,7 @@
 //     try {
 //       setError("");
 //       const response = await axios.get(
-//         "http://localhost:3000/api/flights/live-airport-search",
+//         "https://user-1-d8ut.onrender.com/api/flights/live-airport-search",
 //         {
 //           params: { term: query },
 //         }
@@ -354,7 +354,7 @@
 //     try {
 //       setError("");
 //       const response = await axios.get(
-//         "http://localhost:3000/api/flights/search",
+//         "https://user-1-d8ut.onrender.com/api/flights/search",
 //         {
 //           params: {
 //             origin: departure.toUpperCase(),
@@ -552,7 +552,7 @@ const HorizontalSearchForm = ({ initialData = {}, onSearch }) => {
     try {
       setError("");
       const response = await axios.get(
-        "http://localhost:3000/api/flights/live-airport-search",
+        "https://user-1-d8ut.onrender.com/api/flights/live-airport-search",
         {
           params: { term: query },
         }
@@ -622,7 +622,7 @@ const HorizontalSearchForm = ({ initialData = {}, onSearch }) => {
     try {
       setError("");
       const response = await axios.get(
-        "http://localhost:3000/api/flights/search",
+        "https://user-1-d8ut.onrender.com/api/flights/search",
         {
           params: {
             origin: departure.toUpperCase(),

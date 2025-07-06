@@ -35,7 +35,7 @@
 //       setIsEditing(true);
 //       const fetchTraveler = async () => {
 //         try {
-//           const response = await axios.get(`http://localhost:3000/api/travelers/${id}`, {
+//           const response = await axios.get(`https://user-1-d8ut.onrender.com/api/travelers/${id}`, {
 //             headers: {
 //               Authorization: `Bearer ${sessionId}`
 //             }
@@ -87,7 +87,7 @@
 //     try {
 //       if (isEditing) {
 //         const response = await axios.put(
-//           `http://localhost:3000/api/travelers/${id}`,
+//           `https://user-1-d8ut.onrender.com/api/travelers/${id}`,
 //           {
 //             first_name: formData.first_name,
 //             last_name: formData.last_name,
@@ -105,7 +105,7 @@
 //         }
 //       } else {
 //         const response = await axios.post(
-//           "http://localhost:3000/api/travelers",
+//           "https://user-1-d8ut.onrender.com/api/travelers",
 //           {
 //             first_name: formData.first_name,
 //             last_name: formData.last_name,
@@ -432,7 +432,7 @@ const AddTraveller = () => {
       setIsEditing(true);
       const fetchTraveler = async () => {
         try {
-          const response = await axios.get(`http://localhost:3000/api/travelers/${id}`, {
+          const response = await axios.get(`https://user-1-d8ut.onrender.com/api/travelers/${id}`, {
             headers: {
               Authorization: `Bearer ${sessionId}`
             }
@@ -484,7 +484,7 @@ const AddTraveller = () => {
     try {
       if (isEditing) {
         const response = await axios.put(
-          `http://localhost:3000/api/travelers/${id}`,
+          `https://user-1-d8ut.onrender.com/api/travelers/${id}`,
           {
             first_name: formData.first_name,
             last_name: formData.last_name,
@@ -502,7 +502,7 @@ const AddTraveller = () => {
         }
       } else {
         const response = await axios.post(
-          "http://localhost:3000/api/travelers",
+          "https://user-1-d8ut.onrender.com/api/travelers",
           {
             first_name: formData.first_name,
             last_name: formData.last_name,

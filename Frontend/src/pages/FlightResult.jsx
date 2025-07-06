@@ -171,7 +171,7 @@
 
 //       console.log("Sending request data:", JSON.stringify(requestData, null, 2));
 
-//       const response = await fetch("http://localhost:3000/api/flights/price", {
+//       const response = await fetch("https://user-1-d8ut.onrender.com/api/flights/price", {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -559,7 +559,7 @@ const FlightResults = () => {
         flightOffer: flight,
       };
 
-      const response = await fetch("http://localhost:3000/api/flights/price", {
+      const response = await fetch("https://user-1-d8ut.onrender.com/api/flights/price", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

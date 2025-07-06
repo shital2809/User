@@ -22,7 +22,7 @@
 
 //     const fetchTravelers = async () => {
 //       try {
-//         const response = await axios.get("http://localhost:3000/api/travelers", {
+//         const response = await axios.get("https://user-1-d8ut.onrender.com/api/travelers", {
 //           headers: {
 //             Authorization: `Bearer ${sessionId}`
 //           }
@@ -57,7 +57,7 @@
 
 //     if (window.confirm("Are you sure you want to delete this traveller?")) {
 //       try {
-//         const response = await axios.delete(`http://localhost:3000/api/travelers/${id}`, {
+//         const response = await axios.delete(`https://user-1-d8ut.onrender.com/api/travelers/${id}`, {
 //           headers: {
 //             Authorization: `Bearer ${sessionId}`
 //           }
@@ -156,7 +156,7 @@ const Masterdata = () => {
 
     const fetchTravelers = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/travelers", {
+        const response = await axios.get("https://user-1-d8ut.onrender.com/api/travelers", {
           headers: {
             Authorization: `Bearer ${sessionId}`,
           },
@@ -191,7 +191,7 @@ const Masterdata = () => {
 
     if (window.confirm("Are you sure you want to delete this traveller?")) {
       try {
-        const response = await axios.delete(`http://localhost:3000/api/travelers/${id}`, {
+        const response = await axios.delete(`https://user-1-d8ut.onrender.com/api/travelers/${id}`, {
           headers: {
             Authorization: `Bearer ${sessionId}`,
           },

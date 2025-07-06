@@ -37,7 +37,7 @@
 //       setError("");
 //       setLoading(true); // Set loading to true when search starts
 //       const response = await axios.get(
-//         "http://localhost:3000/api/flights/search",
+//         "https://user-1-d8ut.onrender.com/api/flights/search",
 //         {
 //           params: {
 //             origin: departure.toUpperCase(),
@@ -223,7 +223,7 @@ const SearchForm = () => {
     setLoading(true);
     try {
       setError("");
-      const response = await axios.get("http://localhost:3000/api/flights/search", {
+      const response = await axios.get("https://user-1-d8ut.onrender.com/api/flights/search", {
         params: {
           origin: departure.toUpperCase(),
           destination: destination.toUpperCase(),
